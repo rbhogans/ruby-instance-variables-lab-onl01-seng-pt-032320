@@ -1,5 +1,8 @@
 class Dog
   def name=(dog_name)
+    lassie = Dog.new
+lassie.name = "Lassie"
+lassie.name
     this_dogs_name = dog_name
   end
  
@@ -9,6 +12,4 @@ class Dog
   end
   
 end
-  lassie = Dog.new
-lassie.name = "Lassie"
-lassie.name 
+   
